@@ -13,7 +13,7 @@
 # fetch and removes local branches with deleted remote branch
 git fetch --prune
 
-# if possible; pull without merge commit and fast forward changes;
+# if possible; pull without merge commit and fast forward changes
 git pull --ff-only
 
 # pull without committing merge commit
