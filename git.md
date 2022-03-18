@@ -22,6 +22,9 @@ git pull --no-commit
 # skip git commit hooks >:)
 git commit --no-verify
 
+# empty commit; useful to re-run automation
+git commit -m 're-run checks' --allow-empty
+
 # get root directory absolute path
 git rev-parse --show-toplevel
 
