@@ -19,6 +19,12 @@ git pull --ff-only
 # pull without committing merge commit
 git pull --no-commit
 
+# pull and ignore the edit commit message
+git pull --no-edit
+
+# pull and create a merge commit
+git pull --no-ff
+
 # skip git commit hooks >:)
 git commit --no-verify
 
