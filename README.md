@@ -1,2 +1,2 @@
-# notes
-My notes on various topics; mostly on software development.
+# cli-reference
+Reference sheet for various CLI tools' commands
