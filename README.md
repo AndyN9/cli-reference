@@ -69,10 +69,10 @@ git config -global credential.helper wincred
 ### commands
 ```
 # update latest Node.js for system / default
-```nvm install node --reinstall-packages-from=node```
+nvm install node --reinstall-packages-from=node
 
 # update lts Node.js
-```nvm install "lts/*" --reinstall-packages-from="$(nvm current)"```
+nvm install "lts/*" --reinstall-packages-from="$(nvm current)"
 ```
 
 ## Homebrew
