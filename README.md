@@ -63,6 +63,15 @@ fi
 git config -global credential.helper wincred
 ```
 
+## npm
+> Node Package Manager
+
+### commands
+```
+# list globally install packages
+npm list -g --depth 0
+```
+
 ## nvm
 > Node.js version manager
 
