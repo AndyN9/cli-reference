@@ -32,6 +32,9 @@ git pull --no-edit
 # pull and create a merge commit
 git pull --no-ff
 
+# squash commits interactively
+git rebase -i HEAD~{number of commits}
+
 # skip git commit hooks >:)
 git commit --no-verify
 
